@@ -11,6 +11,11 @@ body, html
   font-family: var(--symbols);
 }
 
+#titles
+{
+  display: grid;
+}
+
 #title
 {
   color: #DDDDDD;
@@ -24,7 +29,7 @@ body, html
 
 #me
 {
-  border-radius: 1000px;
+  border-radius: 100%;
 }
 
 #description
@@ -38,6 +43,8 @@ body, html
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 1vw;
+  justify-items: center;
+  align-items: center;
 }
 
 #cv-container
@@ -453,6 +460,19 @@ li a:hover
   #message-data
   {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px)
+{
+  #me
+  {
+    width: 60%;
+  }
+
+  #presentation
+  {
+    grid-template-columns: none;
   }
 }
 

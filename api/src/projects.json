@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Pitter",
+    "description": "This is a Twitter based Web Application.",
+    "github": "https://github.com/darkem156/pitter",
+    "deploy": "https://app-pitter.herokuapp.com/",
+    "technologies": [
+      "MySQL", 
+      "Express", 
+      "Vue", 
+      "NodeJS"
+    ]
+  },
+  {
+    "name": "PatsApp",
+    "description": "This is a Web Messaging App  based on WhatsApp and Telegram.",
+    "github": "https://github.com/darkem156/patsapp",
+    "deploy": "https://app-patsapp.herokuapp.com/",
+    "technologies": [
+      "MySQL",
+      "Express", 
+      "React", 
+      "NodeJS"]
+  },
+  {
+    "name": "MySQL Web Client",
+    "description": "This is a MySQL Web Database Manager.",
+    "github": "https://github.com/darkem156/mysql-web-client",
+    "technologies": [
+      "MySQL", 
+      "Express", 
+      "Vue", 
+      "NodeJS"]
+  }
+]

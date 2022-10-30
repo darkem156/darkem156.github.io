@@ -10,6 +10,9 @@ class Home extends Component
     this.state = {}
   }
 
+  componentDidMount() { document.title = "Home" }
+  componentDidUpdate() { document.title = "Home" }
+
   render()
   {
     return (

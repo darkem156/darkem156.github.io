@@ -10,7 +10,7 @@ class Projects extends Component
 
   async getProjects()
   {
-    const resp = await fetch("http://darkem.herokuapp.com/api/projects", 
+    const resp = await fetch("https://darkem.herokuapp.com/api/projects", 
     {
       method: "GET",
       headers: {

@@ -8,6 +8,9 @@ class Contact extends Component
     this.state = {}
   }
 
+  componentDidMount() { document.title = "Contact" }
+  componentDidUpdate() { document.title = "Contact" }
+
   onChange = (e) =>
   {
     this.setState({ [e.target.name]: e.target.value })
@@ -38,7 +41,7 @@ class Contact extends Component
               async (e) =>
               {
                 e.preventDefault();
-                const resp = await fetch("http://darkem.herokuapp.com/api/message", 
+                const resp = await fetch("https://darkem.herokuapp.com/api/message", 
                   {
                     method: "POST",
                     headers:

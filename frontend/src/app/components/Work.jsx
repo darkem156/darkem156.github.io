@@ -8,9 +8,12 @@ class Work extends Component
     this.state = {}
   }
 
+  componentDidMount() { document.title = "Work" }
+  componentDidUpdate() { document.title = "Work" }
+
   async getRepos()
   {
-    const resp = await fetch("http://darkem.herokuapp.com/api/repos");
+    const resp = await fetch("https://darkem.herokuapp.com/api/repos");
     const res = await resp.json();
     this.setState({ repos: res })
   }

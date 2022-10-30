@@ -8,6 +8,9 @@ class Cv extends Component
     this.state = {}
   }
 
+  componentDidMount() { document.title = "CV" }
+  componentDidUpdate() { document.title = "CV" }
+
   render()
   {
     return (

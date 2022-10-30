@@ -19,36 +19,18 @@ jobs:
         heroku_email: ${{ secrets.HEROKU_EMAIL }}
         appdir: "api"
 
-  build:
+  gh_deploy:
+    needs: [test]
     runs-on: ubuntu-20.04
     steps:
     - uses: actions/checkout@v3
-    - uses: actions/setup-node@v3
-      with:
-        cache: 'npm'
-        node-version: 16
     - run: |
         cd frontend
         npm ci
         npm run build
-    - uses: actions/upload-artifcat@v3
-      with:
-        name: public
-        path: src/public
-
-  gh_deploy:
-    runs-on: ubuntu-20.04
-    steps:
-    - uses: actions/checkout@v3
-    - uses: actions/setup-node@v3
-      with:
-        cache: 'npm'
-        node-version: 16
-    - run: npm ci
-    - uses: actions/download-artifcat@v3
-      with:
-        name: public
-        path: public
+        cd ..
+    - run: |
+        mv frontend/src/public .
     - name: Deploy to GH Pages
       uses: JamesIves/github-pages-deploy-action@v4
       with:

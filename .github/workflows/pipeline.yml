@@ -20,7 +20,6 @@ jobs:
         appdir: "api"
 
   gh_deploy:
-    needs: [test]
     runs-on: ubuntu-20.04
     steps:
     - uses: actions/checkout@v3

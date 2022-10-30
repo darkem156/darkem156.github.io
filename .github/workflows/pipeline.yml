@@ -28,9 +28,9 @@ jobs:
         cache: 'npm'
         node-version: 16
     - run: |
-      cd frontend
-      npm ci
-      npm run build
+        cd frontend
+        npm ci
+        npm run build
     - uses: actions/upload-artifcat@v3
       with:
         name: public

@@ -18,6 +18,9 @@ jobs:
         heroku_app_name: "darkem"
         heroku_email: ${{ secrets.HEROKU_EMAIL }}
         appdir: "api"
+      env:
+        HD_EMAIL: ${{ secrets.EMAIL }}
+        HD_PASSWORD: ${{ secrets.PASSWORD }}
 
   gh_deploy:
     runs-on: ubuntu-20.04

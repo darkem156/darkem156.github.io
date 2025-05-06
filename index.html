@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/src/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <script defer type="module" src="/src/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fslightbox/index.js"></script>
+  </head>
+  <body class="p-2">
+    <main class="
+      [&>*]:mt-3
+      [&_h3]:bg-primary [&_h3]:w-fit [&_h3]:p-2.5 [&_h3]:px-3.5 [&_h3]:rounded-xl [&_h3]:text-sm [&_h3]:text-white [&_h3]:uppercase [&_h3]:font-bold
+    ">
+      <section>
+        <div class="flex gap-3 items-center flex-col md:flex-row">
+          <img class="w-[20vw] min-w-[200px]" src="/img/file.enc" alt="">
+          <div class="flex flex-col gap-5">
+            <div class="font-bold">
+              <h1 class="text-3xl text-primary">Alondra Mariví Natarén Pérez</h1>
+              <p>Estudiante de 8vo. semestre de Ingeniería en Gestión Empresarial</p>
+            </div>
+            <p>Soy una persona resiliente, apasionada por el aprendizaje continuo y con un sólido desempeño académico. Destaco por mis habilidades de liderazgo, coordinación de equipos e innovación para encontrar soluciones creativas; enfrento los desafíos con determinación y siempre busco crecer personal y profesionalmente, aportando ideas que generan impacto positivo.</p>
+          </div>
+        </div>
+        <div class="mt-3 flex justify-center flex-wrap gap-3 [&>div]:flex [&>div]:flex-col [&>div]:items-center [&>div]:gap-2">
+          <div>
+            <h3>Perfil</h3>
+            <div class="[&>div]:flex [&>div]:gap-2 [&_h4]:font-bold">
+              <div>
+                <i class="bi bi-person-fill"></i>
+                <div class="flex flex-col">
+                  <div>
+                      <h4>Nacionalidad</h4>
+                      <p>Mexicana</p>
+                  </div>
+                  <div>
+                      <h4>Fecha de nacimiento</h4>
+                      <p>18 de diciembre de 2002</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <i class="bi bi-envelope-fill"></i>
+                <p>marivinataren@gmail.com</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h3>Idiomas</h3>
+            <div>
+              <div class="flex gap-2">
+                <i class="bi bi-translate"></i>
+                <div class="flex flex-col">
+                  <h4>Español</h4>
+                  <p>Nativo</p>
+                </div>
+              </div>
+              <div class="flex gap-2">
+                <i class="bi bi-translate"></i>
+                <div class="flex flex-col">
+                  <h4>Inglés</h4>
+                  <p>Intermedio</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h3>Habilidades</h3>
+            <ul class="list-disc">
+              <li>
+                <p>Paquetería de Microsoft Office</p>
+              </li>
+              <li>
+                <p>Software Simio</p>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>Aptitudes</h3>
+            <p class="max-w-[300px]">Trabajo en equipo, pensamiento estratégico, responsabilidad, honestidad, resiliencia,  disciplina. compromiso y dedicación</p>
+          </div>
+        </div>
+      </section>
+      <section id="experience" class="flex flex-col gap-5">
+        <!--<h2 class="text-xl my-2">Experiencia</h2>-->
+        <div>
+          <h3>Concursos</h3>
+          <div class="flex flex-col gap-4 mt-6 text-black">
+            <div class="article">
+              <article
+                class="bg-light p-5 rounded-2xl cursor-pointer shadow-sm hover:bg-primary hover:text-white transition-all duration-300 group"
+              >
+                <div class="flex items-start justify-between">
+                  <div>
+                    <h4 class="text-lg font-semibold group-hover:text-white">InnovaTecNM 2024</h4>
+                    <p class="text-sm text-gray-600 group-hover:text-white/80">Proyecto: Kinética</p>
+                  </div>
+                  <svg class="w-6 h-6 text-primary group-hover:text-white" fill="none" stroke="currentColor" stroke-width="2"
+                    viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M12 4v16m8-8H4" />
+                  </svg>
+                </div>
+                <p class="mt-3 text-sm leading-relaxed group-hover:text-white/90">
+                  Lideré un equipo multidisciplinario en el desarrollo del plan de negocios para una propuesta innovadora enfocada en prótesis de mano funcionales y accesibles. El proyecto fue diseñado con base en un análisis detallado de las condiciones del mercado mexicano, priorizando el impacto social y la viabilidad operativa. Como parte clave del proceso, logramos establecer una relación estratégica con el Teletón, fortaleciendo la proyección y compromiso social de Kinética.
+                </p>
+              </article>
+              <div class="dialog hidden flex fixed max-w-none max-h-none w-full h-full top-0 left-0 bg-[#00000082] items-center justify-center">
+                <div class="bg-white h-[60%] w-[60%] p-2 rounded-sm flex flex-col gap-2">
+                  <div class="flex gap-3 items-center justify-between">
+                    <span></span>
+                    <button class="bg-primary text-white rounded px-4 py-2 cursor-pointer">x</button>
+                  </div>
+                  <div class="gallery flex-wrap flex [&>a]:flex [&>a]:w-[20%] [&>a]:min-w-[100px] [&>a_img]:object-cover [&>a_img]:object-top [&>a]:aspect-square gap-2 justify-center overflow-auto">
+                    <a href="/img/innova2024/11.jpeg" data-fslightbox="innova2024">
+                      <img class="w-full" src="/img/innova2024/11.jpeg" alt="">
+                    </a>
+                    <a href="/img/innova2024/1.jpeg" data-fslightbox="innova2024">
+                      <img class="w-full" src="/img/innova2024/1.jpeg" alt="">
+                    </a>
+                    <a href="/img/innova2024/2.jpeg" data-fslightbox="innova2024">
+                      <img class="w-full" src="/img/innova2024/2.jpeg" alt="">
+                    </a>
+                    <a href="/img/innova2024/3.jpeg" data-fslightbox="innova2024">
+                      <img class="w-full" src="/img/innova2024/3.jpeg" alt="">
+                    </a>
+                    <a href="/img/innova2024/4.jpeg" data-fslightbox="innova2024">
+                      <img class="w-full" src="/img/innova2024/4.jpeg" alt="">
+                    </a>
+                    <a href="/img/innova2024/5.jpeg" data-fslightbox="innova2024">
+                      <img class="w-full" src="/img/innova2024/5.jpeg" alt="">
+                    </a>
+                    <a href="/img/innova2024/6.jpeg" data-fslightbox="innova2024">
+                      <img class="w-full" src="/img/innova2024/6.jpeg" alt="">
+                    </a>
+                    <a href="/img/innova2024/7.jpeg" data-fslightbox="innova2024">
+                      <img class="w-full" src="/img/innova2024/7.jpeg" alt="">
+                    </a>
+                    <a href="/img/innova2024/8.jpeg" data-fslightbox="innova2024">
+                      <img class="w-full" src="/img/innova2024/8.jpeg" alt="">
+                    </a>
+                    <a href="/img/innova2024/9.jpeg" data-fslightbox="innova2024">
+                      <img class="w-full" src="/img/innova2024/9.jpeg" alt="">
+                    </a>
+                    <a href="/img/innova2024/12.jpeg" data-fslightbox="innova2024">
+                      <img class="w-full" src="/img/innova2024/12.jpeg" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="article">
+              <article
+                class="bg-light p-5 rounded-2xl cursor-pointer shadow-sm hover:bg-primary hover:text-white transition-all duration-300 group"
+              >
+                <div class="flex items-start justify-between">
+                  <div>
+                    <h4 class="text-lg font-semibold group-hover:text-white">Expociencias 2023</h4>
+                    <p class="text-sm text-gray-600 group-hover:text-white/80">Proyecto: LumUsVot</p>
+                  </div>
+                  <svg class="w-6 h-6 text-primary group-hover:text-white" fill="none" stroke="currentColor" stroke-width="2"
+                    viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M12 4v16m8-8H4" />
+                  </svg>
+                </div>
+                <p class="mt-3 text-sm leading-relaxed group-hover:text-white/90">
+                  Presentamos la propuesta en ExpoCiencia 2023, donde, gracias a nuestra destacada participación, obtuvimos el primer lugar estatal y la acreditación para representar a Chiapas en la etapa nacional en Sonora.
+                </p>
+              </article>
+              <div class="dialog hidden flex fixed max-w-none max-h-none w-full h-full top-0 left-0 bg-[#00000082] items-center justify-center">
+                <div class="bg-white h-[60%] w-[60%] p-2 rounded-sm flex flex-col gap-2">
+                  <div class="flex gap-3 items-center justify-between">
+                    <span></span>
+                    <button class="bg-primary text-white rounded px-4 py-2 cursor-pointer">x</button>
+                  </div>
+                  <div class="gallery flex-wrap flex [&>a]:flex [&>a]:w-[20%] [&>a]:min-w-[100px] [&>a_img]:object-cover [&>a_img]:object-top [&>a]:aspect-square gap-2 justify-center overflow-auto">
+                    <a href="/img/expociencias/1.jpeg" data-fslightbox="expociencias">
+                      <img class="w-full" src="/img/expociencias/1.jpeg" alt="">
+                    </a>
+                    <a href="/img/expociencias/2.jpeg" data-fslightbox="expociencias">
+                      <img class="w-full" src="/img/expociencias/2.jpeg" alt="">
+                    </a>
+                    <a href="/img/expociencias/3.jpeg" data-fslightbox="expociencias">
+                      <img class="w-full" src="/img/expociencias/3.jpeg" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="article">
+              <article
+                class="bg-light p-5 rounded-2xl cursor-pointer shadow-sm hover:bg-primary hover:text-white transition-all duration-300 group"
+              >
+                <div class="flex items-start justify-between">
+                  <div>
+                    <h4 class="text-lg font-semibold group-hover:text-white">InnovaTecNM 2023</h4>
+                    <p class="text-sm text-gray-600 group-hover:text-white/80">Proyecto: LumUsVot</p>
+                  </div>
+                  <svg class="w-6 h-6 text-primary group-hover:text-white" fill="none" stroke="currentColor" stroke-width="2"
+                    viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M12 4v16m8-8H4" />
+                  </svg>
+                </div>
+                <p class="mt-3 text-sm leading-relaxed group-hover:text-white/90">
+                  Participé activamente en el diseño estratégico de LumUSVot, un dispositivo de desinfección con luz ultravioleta dirigido a hospitales, clínicas, escuelas, laboratorios, hoteles y otros espacios que requieren altos estándares de higiene. Desarrollé un modelo de negocio innovador acompañado de estrategias de mercadotecnia y una segmentación detallada del mercado, logrando posicionar efectivamente la propuesta. Además, lideré y participé en diversas pláticas en instituciones educativas y laboratorios para presentar la funcionalidad e impacto del dispositivo. Gracias a estos esfuerzos, obtuvimos una carta de intención por parte del IMSS, lo que validó el potencial del proyecto en el sector salud.
+                </p>
+              </article>
+              <div class="dialog hidden flex fixed max-w-none max-h-none w-full h-full top-0 left-0 bg-[#00000082] items-center justify-center">
+                <div class="bg-white h-[60%] w-[60%] p-2 rounded-sm flex flex-col gap-2">
+                  <div class="flex gap-3 items-center justify-between">
+                    <span></span>
+                    <button class="bg-primary text-white rounded px-4 py-2 cursor-pointer">x</button>
+                  </div>
+                  <div class="gallery flex-wrap flex [&>a]:flex [&>a]:w-[20%] [&>a]:min-w-[100px] [&>a_img]:object-cover [&>a_img]:object-top [&>a]:aspect-square gap-2 justify-center overflow-auto">
+                    <a href="/img/innova2023/1.jpeg" data-fslightbox="innova2023">
+                      <img class="w-full" src="/img/innova2023/1.jpeg" alt="">
+                    </a>
+                    <a href="/img/innova2023/2.jpeg" data-fslightbox="innova2023">
+                      <img class="w-full" src="/img/innova2023/2.jpeg" alt="">
+                    </a>
+                    <a href="/img/innova2023/3.jpeg" data-fslightbox="innova2023">
+                      <img class="w-full" src="/img/innova2023/3.jpeg" alt="">
+                    </a>
+                    <a href="/img/innova2023/4.jpeg" data-fslightbox="innova2023">
+                      <img class="w-full" src="/img/innova2023/4.jpeg" alt="">
+                    </a>
+                    <a href="/img/innova2023/5.jpeg" data-fslightbox="innova2023">
+                      <img class="w-full" src="/img/innova2023/5.jpeg" alt="">
+                    </a>
+                    <a href="/img/innova2023/6.jpeg" data-fslightbox="innova2023">
+                      <img class="w-full" src="/img/innova2023/6.jpeg" alt="">
+                    </a>
+                    <a href="/img/innova2023/7.jpeg" data-fslightbox="innova2023">
+                      <img class="w-full" src="/img/innova2023/7.jpeg" alt="">
+                    </a>
+                    <a href="/img/innova2023/8.jpeg" data-fslightbox="innova2023">
+                      <img class="w-full" src="/img/innova2023/8.jpeg" alt="">
+                    </a>
+                    <a href="/img/innova2023/9.jpeg" data-fslightbox="innova2023">
+                      <img class="w-full" src="/img/innova2023/9.jpeg" alt="">
+                    </a>
+                    <a href="/img/innova2023/10.jpeg" data-fslightbox="innova2023">
+                      <img class="w-full" src="/img/innova2023/10.jpeg" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>          
+        </div>
+        <div>
+          <h3>Ponencias</h3>
+          <div class="flex flex-col gap-4 mt-6 text-black">
+            <div class="article">
+              <article
+                class="bg-light p-5 rounded-2xl cursor-pointer shadow-sm hover:bg-primary hover:text-white transition-all duration-300 group"
+              >
+                <div class="flex items-start justify-between">
+                  <div>
+                    <h4 class="text-lg font-semibold group-hover:text-white">Conejo Tank (2024)</h4>
+                    <p class="text-sm text-gray-600 group-hover:text-white/80">Lugar: Expo convenciones Chiapas</p>
+                  </div>
+                  <svg class="w-6 h-6 text-primary group-hover:text-white" fill="none" stroke="currentColor" stroke-width="2"
+                    viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M12 4v16m8-8H4" />
+                  </svg>
+                </div>
+                <p class="mt-3 text-sm leading-relaxed group-hover:text-white/90">
+                  Desarrollo de un plan de negocios innovador tomando en cuenta las condiciones del mercado
+                  en conjunto con un equipo multidisciplinario, el cual lideré.
+                </p>
+              </article>
+              <div class="dialog hidden flex fixed max-w-none max-h-none w-full h-full top-0 left-0 bg-[#00000082] items-center justify-center">
+                <div class="bg-white h-[60%] w-[60%] p-2 rounded-sm flex flex-col gap-2">
+                  <div class="flex gap-3 items-center justify-between">
+                    <span></span>
+                    <button class="bg-primary text-white rounded px-4 py-2 cursor-pointer">x</button>
+                  </div>
+                  <div class="gallery flex-wrap flex [&>a]:flex [&>a]:w-[20%] [&>a]:min-w-[100px] [&>a_img]:object-cover [&>a_img]:object-top [&>a]:aspect-square gap-2 justify-center overflow-auto">
+                    <a href="/img/conejo-thank/1.jpeg" data-fslightbox="conejo-thank">
+                      <img class="w-full" src="/img/conejo-thank/1.jpeg" alt="">
+                    </a>
+                    <a href="/img/conejo-thank/2.jpeg" data-fslightbox="conejo-thank">
+                      <img class="w-full" src="/img/conejo-thank/2.jpeg" alt="">
+                    </a>
+                    <a href="/img/conejo-thank/3.jpeg" data-fslightbox="conejo-thank">
+                      <img class="w-full" src="/img/conejo-thank/3.jpeg" alt="">
+                    </a>
+                    <a href="/img/conejo-thank/4.jpeg" data-fslightbox="conejo-thank">
+                      <img class="w-full" src="/img/conejo-thank/4.jpeg" alt="">
+                    </a>
+                    <a href="/img/conejo-thank/5.jpeg" data-fslightbox="conejo-thank">
+                      <img class="w-full" src="/img/conejo-thank/5.jpeg" alt="">
+                    </a>
+                    <a href="/img/conejo-thank/6.jpeg" data-fslightbox="conejo-thank">
+                      <img class="w-full" src="/img/conejo-thank/6.jpeg" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="article">
+              <article
+                class="bg-light p-5 rounded-2xl cursor-pointer shadow-sm hover:bg-primary hover:text-white transition-all duration-300 group"
+              >
+                <div class="flex items-start justify-between">
+                  <div>
+                    <h4 class="text-lg font-semibold group-hover:text-white">Teletón</h4>
+                    <p class="text-sm text-gray-600 group-hover:text-white/80">Lugar: Teletón Tuxtla Gutiérrez</p>
+                  </div>
+                  <svg class="w-6 h-6 text-primary group-hover:text-white" fill="none" stroke="currentColor" stroke-width="2"
+                    viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M12 4v16m8-8H4" />
+                  </svg>
+                </div>
+                <p class="mt-3 text-sm leading-relaxed group-hover:text-white/90">
+                  Desarrollo de un plan de negocios innovador tomando en cuenta las condiciones del mercado
+                  en conjunto con un equipo multidisciplinario, el cual lideré.
+                </p>
+              </article>
+              <div class="dialog hidden flex fixed max-w-none max-h-none w-full h-full top-0 left-0 bg-[#00000082] items-center justify-center">
+                <div class="bg-white h-[60%] w-[60%] p-2 rounded-sm flex flex-col gap-2">
+                  <div class="flex gap-3 items-center justify-between">
+                    <span></span>
+                    <button class="bg-primary text-white rounded px-4 py-2 cursor-pointer">x</button>
+                  </div>
+                  <div class="gallery flex-wrap flex [&>a]:flex [&>a]:w-[20%] [&>a]:min-w-[100px] [&>a_img]:object-cover [&>a_img]:object-top [&>a]:aspect-square gap-2 justify-center overflow-auto">
+                    <a href="/img/teleton/1.jpeg" data-fslightbox="teleton">
+                      <img class="w-full" src="/img/teleton/1.jpeg" alt="">
+                    </a>
+                    <a href="/img/teleton/2.jpeg" data-fslightbox="teleton">
+                      <img class="w-full" src="/img/teleton/2.jpeg" alt="">
+                    </a>
+                    <a href="/img/teleton/3.jpeg" data-fslightbox="teleton">
+                      <img class="w-full" src="/img/teleton/3.jpeg" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="article">
+              <article
+                class="bg-light p-5 rounded-2xl cursor-pointer shadow-sm hover:bg-primary hover:text-white transition-all duration-300 group"
+              >
+                <div class="flex items-start justify-between">
+                  <div>
+                    <h4 class="text-lg font-semibold group-hover:text-white">Centro universitario mesoamericano</h4>
+                    <p class="text-sm text-gray-600 group-hover:text-white/80">Lugar: Escuela de enfermería</p>
+                  </div>
+                  <svg class="w-6 h-6 text-primary group-hover:text-white" fill="none" stroke="currentColor" stroke-width="2"
+                    viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M12 4v16m8-8H4" />
+                  </svg>
+                </div>
+                <p class="mt-3 text-sm leading-relaxed group-hover:text-white/90">
+                  Desarrollo de un plan de negocios innovador tomando en cuenta las condiciones del mercado
+                  en conjunto con un equipo multidisciplinario, el cual lideré.
+                </p>
+              </article>
+              <div class="dialog hidden flex fixed max-w-none max-h-none w-full h-full top-0 left-0 bg-[#00000082] items-center justify-center">
+                <div class="bg-white h-[60%] w-[60%] p-2 rounded-sm flex flex-col gap-2">
+                  <div class="flex gap-3 items-center justify-between">
+                    <span></span>
+                    <button class="bg-primary text-white rounded px-4 py-2 cursor-pointer">x</button>
+                  </div>
+                  <div class="gallery flex-wrap flex [&>a]:flex [&>a]:w-[20%] [&>a]:min-w-[100px] [&>a_img]:object-cover [&>a_img]:object-top [&>a]:aspect-square gap-2 justify-center overflow-auto">
+                    <a href="/img/cum/1.jpeg" data-fslightbox="cum">
+                      <img class="w-full" src="/img/cum/1.jpeg" alt="">
+                    </a>
+                    <a href="/img/cum/2.jpeg" data-fslightbox="cum">
+                      <img class="w-full" src="/img/cum/2.jpeg" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="article">
+              <article
+                class="bg-light p-5 rounded-2xl cursor-pointer shadow-sm hover:bg-primary hover:text-white transition-all duration-300 group"
+              >
+                <div class="flex items-start justify-between">
+                  <div>
+                    <h4 class="text-lg font-semibold group-hover:text-white">Otras ponencias</h4>
+                    <p class="text-sm text-gray-600 group-hover:text-white/80">Lugares: Diferentes localidades en Chiapas</p>
+                  </div>
+                  <svg class="w-6 h-6 text-primary group-hover:text-white" fill="none" stroke="currentColor" stroke-width="2"
+                    viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M12 4v16m8-8H4" />
+                  </svg>
+                </div>
+                <p class="mt-3 text-sm leading-relaxed group-hover:text-white/90">
+                  Desarrollo de un plan de negocios innovador tomando en cuenta las condiciones del mercado
+                  en conjunto con un equipo multidisciplinario, el cual lideré.
+                </p>
+              </article>
+              <div class="dialog hidden flex fixed max-w-none max-h-none w-full h-full top-0 left-0 bg-[#00000082] items-center justify-center">
+                <div class="bg-white h-[60%] w-[60%] p-2 rounded-sm flex flex-col gap-2">
+                  <div class="flex gap-3 items-center justify-between">
+                    <span></span>
+                    <button class="bg-primary text-white rounded px-4 py-2 cursor-pointer">x</button>
+                  </div>
+                  <div class="gallery flex-wrap flex [&>a]:flex [&>a]:w-[20%] [&>a]:min-w-[100px] [&>a_img]:object-cover [&>a_img]:object-top [&>a]:aspect-square gap-2 justify-center overflow-auto">
+                    <a href="/img/otras/1.jpeg" data-fslightbox="otras">
+                      <img class="w-full" src="/img/otras/1.jpeg" alt="">
+                    </a>
+                    <a href="/img/otras/2.jpeg" data-fslightbox="otras">
+                      <img class="w-full" src="/img/otras/2.jpeg" alt="">
+                    </a>
+                    <a href="/img/otras/3.jpeg" data-fslightbox="otras">
+                      <img class="w-full" src="/img/otras/3.jpeg" alt="">
+                    </a>
+                    <a href="/img/otras/4.jpeg" data-fslightbox="otras">
+                      <img class="w-full" src="/img/otras/4.jpeg" alt="">
+                    </a>
+                    <a href="/img/otras/5.jpeg" data-fslightbox="otras">
+                      <img class="w-full" src="/img/otras/5.jpeg" alt="">
+                    </a>
+                    <a href="/img/otras/6.jpeg" data-fslightbox="otras">
+                      <img class="w-full" src="/img/otras/6.jpeg" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>          
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

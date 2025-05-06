@@ -4,5 +4,5 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
   ],
-  base: 'https://darkem156.github.io/marivi/'
+  base: 'https://darkem156.github.io'
 })
